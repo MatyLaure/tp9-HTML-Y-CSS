@@ -1,0 +1,22 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-modern {
+    padding: 10px;
+    border-radius: 20px;
+    background-color: fuchsia;
+    color: rgb(63, 63, 63);
+    border: solid 2px;
+    transition: all 0.4s ease;
+}
+
+.btn-modern:hover{
+    transform: translateY(-5px);
+    background-color: purple;
+    color: white;
+    box-shadow: 5px 10px 20px cyan;
+}
